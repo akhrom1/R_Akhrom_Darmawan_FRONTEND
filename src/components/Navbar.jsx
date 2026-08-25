@@ -33,6 +33,16 @@ const Navbar = () => {
               Trasaksi
             </NavLink>
           </li>
+          <li>
+            <a
+              href="https://jolly-tartufo-f8cdd7.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 rounded-lg transition hover:bg-gray-100 inline-block"
+            >
+              About Me
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import customApi from "../config/axios";
 import { Helmet } from "react-helmet-async";
 
+// import productDataDummy from "../dummy/product";
+
 const ProductView = () => {
   const [product, setProduct] = useState([]);
   const [productData, setProductData] = useState([]);
